@@ -1,0 +1,198 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    background:linear-gradient(to right, #07775C,#0DDDAB);
+    }
+
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+}
+
+.titulo {
+    
+    display: flex;
+    justify-content: start;
+    margin-left: 3%;
+    font-size: 400%;
+    font-weight: 700;
+    width: 70%;
+    margin-top: 4%;
+    
+}
+
+.profissional {
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+    align-items: flex-start;
+    width: 30%;
+    font-size: 120%;
+}
+
+.nome{
+
+    color: #fff; 
+    display: flex;
+    font-weight: 600;
+    font-size: 350%;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    width: 55%;
+
+}
+
+.article{
+    margin: 5%;
+    display: flex;
+    justify-items: center;
+
+}
+
+.descricao{
+
+    height: 25%; /* Define a altura como 30% do elemento pai */
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    font-size: 100%;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container img{
+
+    width: 700px;
+    height: auto;
+    margin: 1%;
+    
+}
+
+.icones img{
+
+    border-radius: 50%;
+    width: 5%;
+    padding: 1%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icones img:hover {
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra ao redor da imagem */
+    border-radius: 50%;
+}
+
+.subtitulos {
+    background-color: rgb(13, 85, 61);
+    width: 15%;
+    border-radius: 10px;
+    margin: 5%;
+
+}
+
+.subtitulos h5 {
+    color: #ffffff;
+    padding: 5%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h2{
+    color: #ffffff;
+    margin-left: 11%;
+    padding: 1%;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+h3{
+    color: #ffffff;
+    padding: 1%;
+    font-size: 22px;    
+    display: flex;
+    justify-content: flex-start; 
+    font-weight: 400;
+}
+
+.imagensFav{
+
+    display: flex;
+    width: 850px;
+
+}
+
+.imagensFav img{
+    
+    width: 100%;
+    margin-left: 10%;
+
+}
+
+.descFav {
+
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+
+.subtitulosF {
+    background-color: rgb(13, 85, 61);
+    width: 20%;
+    border-radius: 10px;
+    margin: 5%;
+
+}
+
+.subtitulosF h5 {
+    color: #ffffff;
+    padding: 5%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.descInt {
+
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+
+.imagensInt{
+
+    display: flex;
+    width: 400px;
+
+}
+
+.imagensInt img{
+    
+    width: 100%;
+    margin-left: 10%;
+
+}
+
+
+
